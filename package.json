@@ -1,0 +1,64 @@
+{
+  "name": "engine-web",
+  "version": "1.0.0",
+  "description": "Web dashboard for Engine Framework",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
+    "preview": "vite preview",
+    "test": "vitest",
+    "test:ui": "vitest --ui",
+    "coverage": "vitest run --coverage"
+  },
+  "dependencies": {
+    "@types/node": "^20.8.0",
+    "axios": "^1.5.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-query": "^3.39.3",
+    "react-router-dom": "^6.16.0",
+    "recharts": "^2.7.0",
+    "lucide-react": "^0.294.0",
+    "clsx": "^2.0.0",
+    "tailwind-merge": "^1.14.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.0",
+    "@types/react-dom": "^18.2.0",
+    "@typescript-eslint/eslint-plugin": "^6.0.0",
+    "@typescript-eslint/parser": "^6.0.0",
+    "@vitejs/plugin-react": "^4.0.3",
+    "autoprefixer": "^10.4.16",
+    "eslint": "^8.45.0",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react-refresh": "^0.4.3",
+    "jsdom": "^22.1.0",
+    "postcss": "^8.4.31",
+    "tailwindcss": "^3.3.0",
+    "typescript": "^5.2.0",
+    "vite": "^4.4.5",
+    "vitest": "^0.34.0",
+    "@vitest/ui": "^0.34.0",
+    "@vitest/coverage-v8": "^0.34.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/engine-agi/engine-web.git"
+  },
+  "keywords": [
+    "react",
+    "typescript",
+    "dashboard",
+    "ai",
+    "agents",
+    "orchestration"
+  ],
+  "author": "Engine Framework Team",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/engine-agi/engine-web/issues"
+  },
+  "homepage": "https://github.com/engine-agi/engine-web#readme"
+}
